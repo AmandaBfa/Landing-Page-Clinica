@@ -1,5 +1,5 @@
 body {
-    background-color: #ebeff5; 
+    background-color: #f5dec9; 
 }
 
 .icon-float {
@@ -29,7 +29,6 @@ body {
     }
 }
 
-
 .icon-float {
     width: 48px;
     height: 48px;
@@ -57,6 +56,66 @@ body {
     }
 }
 
-.text-pink {
-    color: #e88aa3;
+.btn-agendar {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 35px;     
+    font-size: 1rem;
+    border-radius: 12px;
+    text-decoration: none;
+    background: linear-gradient(135deg, #2563eb, #1e40af); /* botão azul */
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0 6px 15px rgba(37, 99, 235, 0.3);
+    transition: all 0.3s ease;
+    margin: 0 auto;
 }
+
+.btn-agendar i.bi-whatsapp {
+    font-size: 1.2rem;
+    color: #60a5fa; /* ícone azul claro no estado normal */
+    padding: 6px;
+    border-radius: 50%;
+    background-color: rgba(96, 165, 250, 0.2); /* fundo azul clarinho */
+    transition: all 0.3s ease;
+}
+
+
+.btn-agendar:hover {
+    background: linear-gradient(135deg, #3b82f6, #60a5fa); /* azul mais claro no hover */
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
+    transform: translateY(-2px);
+}
+
+.btn-agendar:hover i.bi-whatsapp {
+    color: #1e40af; /* ícone azul escuro no hover */
+    background-color: rgba(37, 99, 235, 0.2); /* fundo azul mais escuro */
+}
+
+.card i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background-color: rgba(59, 130, 246, 0.1); /* azul mais suave */
+    color: #2563eb; /* azul principal */
+    border-radius: 50%;
+    font-size: 1.5rem; /* um pouco menor que 2rem */
+    transition: all 0.3s ease;
+}
+
+.card i:hover {
+    transform: translateY(-3px);
+    background-color: rgba(59, 130, 246, 0.2); /* leve destaque no hover */
+}
+
+.row.g-4 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
