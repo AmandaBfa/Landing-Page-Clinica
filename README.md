@@ -2,18 +2,18 @@
 
 Landing page desenvolvida para apresentação profissional de uma neuropsicopedagoga clínica, com foco em acolhimento, clareza e identidade visual suave.
 
-## ✨ Layout
+## Layout
 
-![Preview do layout](img/prontooo.png)
+![Preview do layout](img/LandingPageClinicaPreview.png)
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - HTML5
 - CSS3
 - Bootstrap 5
 - Bootstrap Icons
 
-## 🎯 Objetivo
+## Objetivo
 
 Criar uma página simples, responsiva e elegante para divulgação profissional.
 
