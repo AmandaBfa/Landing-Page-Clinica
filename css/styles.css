@@ -29,33 +29,6 @@ body {
     }
 }
 
-.icon-float {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    animation: float 3s ease-in-out infinite;
-}
-  
-.icon-float i {
-    font-size: 1.4rem;
-}
-  
-.icon-float.delay {
-    animation-delay: 1.2s;
-}
-  
-@keyframes float {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-8px);
-    }
-}
-
 .btn-agendar {
     display: inline-flex;
     align-items: center;
@@ -119,3 +92,27 @@ body {
     text-align: center;
 }
 
+.title {
+    font-family: "Changa One", sans-serif;
+    font-weight: 50;
+    font-style: normal;
+}
+
+.subtitle {
+    font-family: "Geom", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.text-destaque {
+    color: #f37805;
+} 
+
+.section {
+    margin: 3rem auto;
+}
+
+.footer i {
+    color: #f37805; /* seu laranja padrão */
+}

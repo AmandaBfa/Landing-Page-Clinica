@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +7,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One&family=Geom:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div class="container text-center mt-5">
+    <header class="container text-center mt-5">
         <img src="img/foto_perfil.jpg" class="rounded-circle shadow mb-3" width="150" alt="Foto profissional">
 
-        <h1 class="fw-bold">Dra. Karla Niana</h1>
-        <p class="fs-4" style="color:  #f37805;">Espaço Terapêutico</p>
+        <h1 class="title">Dra. Karla Niana</h1>
+        <p class="fs-4 text-destaque">Espaço Terapêutico</p>
 
         <p class="text-muted fs-5">Atendimento humanizado e personalizado para o desenvolvimento integral de cada criança.</p>
 
@@ -34,11 +37,11 @@
 
         <p class="text-muted fs-5">Cada criança é única. Meu trabalho é acolher, entender e criar caminhos <strong style="color: #f37805;">personalizados</strong> para o seu desenvolvimento.</p>
 
-    </div>
+    </header>
 
-    <div class="container my-5">
+    <div class="container section">
         <div class="card border-0 shadow-sm rounded-4 p-4">
-            <div class="fw-bold mb-3 fs-2 text-center">
+            <div class="title mb-3 fs-2 text-center">
                 Sobre meu trabalho
             </div>
 
@@ -52,14 +55,14 @@
         </div>
     </div>
 
-    <div class="container my-5">
-        <div class="fw-bold mb-3 fs-2 text-center">Especialidades</div>
+    <div class="container section">
+        <div class="title mb-3 fs-2 text-center">Especialidades</div>
 
         <div class="row g-4">
             <div class="col-md-6">
                 <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-start">
                     <i class="bi bi-lungs fs-2 mb-1"></i>
-                    <div class="fw-bold fs-4 mb-2">
+                    <div class="subtitle fs-4 mb-2">
                         TEA
                     </div>
                     <div class="text-secondary">
@@ -70,7 +73,7 @@
             <div class="col-md-6">
                 <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-start">
                     <i class="bi bi-stars fs-2 mb-1"></i>
-                    <div class="fw-bold fs-4 mb-2">
+                    <div class="subtitle fs-4 mb-2">
                         TDAH
                     </div>
                     <div class="text-secondary">
@@ -81,9 +84,9 @@
         </div>
     </div>
 
-    <div class="container my-5">
+    <div class="container section">
 
-        <div class="fw-bold fs-2 text-center mb-4">
+        <div class="title fs-2 text-center mb-4">
             Como funciona o atendimento
         </div>
     
@@ -91,21 +94,21 @@
             <div class="row text-center g-4">
                 <div class="col-md-4">
                     <i class="bi bi-1-circle-fill icon-step mb-3"></i>
-                    <div class="fw-bold fs-4 mb-2">Avaliação Inicial</div>
+                    <div class="subtitle fs-4 mb-2">Avaliação Inicial</div>
                     <div class="text-secondary">
                         Conhecemos a criança e sua história para entender suas necessidades específicas.
                     </div>
                 </div>
                 <div class="col-md-4">
                     <i class="bi bi-2-circle-fill icon-step mb-3"></i>
-                    <div class="fw-bold fs-4 mb-2">Planejamento Individual</div>
+                    <div class="subtitle fs-4 mb-2">Planejamento Individual</div>
                     <div class="text-secondary">
                         Criamos estratégias personalizadas para o desenvolvimento de cada criança.
                     </div>
                 </div>
                 <div class="col-md-4">
                     <i class="bi bi-3-circle-fill icon-step mb-3"></i>
-                    <div class="fw-bold fs-4 mb-2">Intervenção</div>
+                    <div class="subtitle fs-4 mb-2">Intervenção</div>
                     <div class="text-secondary">
                         Aplicamos atividades e acompanhamento contínuo para evolução do aprendizado.
                     </div>
@@ -114,9 +117,9 @@
         </div>
     </div>
 
-    <div class="container my-5">
+    <div class="container section">
         <div class="card border-0 shadow-sm rounded-4 p-4 text-center">
-            <div class="fw-bold mb-3 fs-2 ">
+            <div class="title mb-3 fs-2 ">
                 Vamos conversar?
             </div>
 
@@ -132,9 +135,9 @@
         </div>
     </div> 
 
-    <div class="container my-5">
+    <div class="container section">
 
-        <div class="fw-bold fs-2 text-center mb-4">
+        <div class="title fs-2 text-center mb-4">
             Entre em contato
         </div>
     
@@ -179,7 +182,7 @@
         </div>
     </div>   
 
-    <div class="mt-5 text-center text-muted ">
+    <!-- <div class="mt-5 text-center text-muted ">
         <div class="mb-1">
             <i class="bi bi-balloon-heart-fill text-pink"></i>
             Feito com carinho para ajudar crianças e famílias
@@ -187,7 +190,24 @@
         <div class="mb-4">
             Neuropsicopedagoga Clínica
         </div>
-    </div>        
+    </div>         -->
+
+    <footer class="footer mt-5 py-4">
+        <div class="container text-center">
+            <div class="mb-2">
+                <i class="bi bi-balloon-heart-fill me-1"></i>
+                Feito com carinho para ajudar crianças e famílias
+            </div>
+    
+            <div class="text-muted">
+                Neuropsicopedagoga Clínica
+            </div>
+    
+            <div class="mt-3 small text-muted">
+                © 2025 Dra. Karla Niana — Todos os direitos reservados
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
